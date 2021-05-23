@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <!-- <groups>
+  <run>
+  <include name=""></include>
+  </run>
+  </groups> -->
+  <classes>
+  <class name="testNGDemo.BankAccount">
+  <methods>
+  <include name="createBankAccount"></include>
+  <include name="depositAmount"></include>
+  </methods>
+  </class>
+  </classes>
+<!--     <classes>
+      <class name="testNGDemo.BankAccount"/>
+      
+      <class name="seleniumTestNG.FailurScreenShot"/>
+    </classes> -->
+  </test> 
+</suite> 
