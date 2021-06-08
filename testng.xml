@@ -9,10 +9,12 @@
   </groups> -->
   <classes>
   <class name="testNGDemo.BankAccount">
-  <methods>
+  <!--<methods>
   <include name="createBankAccount"></include>
   <include name="depositAmount"></include>
-  </methods>
+  </methods>-->
+  </class>
+  <class name="testNGDemo.CarLoan">
   </class>
   </classes>
 <!--     <classes>

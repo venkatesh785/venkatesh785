@@ -1,29 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="69" started-at="2021-06-08T12:49:07Z" finished-at="2021-06-08T12:49:07Z">
+  <suite name="Suite" duration-ms="368" started-at="2021-06-08T13:09:33Z" finished-at="2021-06-08T13:09:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="69" started-at="2021-06-08T12:49:07Z" finished-at="2021-06-08T12:49:07Z">
+    <test name="Test" duration-ms="368" started-at="2021-06-08T13:09:33Z" finished-at="2021-06-08T13:09:33Z">
       <class name="testNGDemo.CarLoan">
-        <test-method status="PASS" signature="applyCarLoan()[pri:0, instance:testNGDemo.CarLoan@7c16905e]" name="applyCarLoan" duration-ms="30" started-at="2021-06-08T18:19:07Z" finished-at="2021-06-08T18:19:07Z">
+        <test-method status="PASS" signature="applyCarLoan()[pri:0, instance:testNGDemo.CarLoan@28feb3fa]" name="applyCarLoan" duration-ms="1" started-at="2021-06-08T18:39:33Z" finished-at="2021-06-08T18:39:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applyCarLoan -->
-        <test-method status="PASS" signature="createSubmittDoc()[pri:0, instance:testNGDemo.CarLoan@7c16905e]" name="createSubmittDoc" duration-ms="3" started-at="2021-06-08T18:19:07Z" finished-at="2021-06-08T18:19:07Z">
+        <test-method status="PASS" signature="createSubmittDoc()[pri:0, instance:testNGDemo.CarLoan@28feb3fa]" name="createSubmittDoc" duration-ms="31" started-at="2021-06-08T18:39:33Z" finished-at="2021-06-08T18:39:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createSubmittDoc -->
-        <test-method status="PASS" signature="sanctionAmount()[pri:0, instance:testNGDemo.CarLoan@7c16905e]" name="sanctionAmount" duration-ms="2" started-at="2021-06-08T18:19:07Z" finished-at="2021-06-08T18:19:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sanctionAmount -->
-        <test-method status="PASS" signature="verifyDoc()[pri:0, instance:testNGDemo.CarLoan@7c16905e]" name="verifyDoc" duration-ms="1" started-at="2021-06-08T18:19:07Z" finished-at="2021-06-08T18:19:07Z">
+        <test-method status="PASS" signature="verifyDoc()[pri:0, instance:testNGDemo.CarLoan@28feb3fa]" name="verifyDoc" duration-ms="13" started-at="2021-06-08T18:39:33Z" finished-at="2021-06-08T18:39:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDoc -->
+        <test-method status="PASS" signature="sanctionAmount()[pri:0, instance:testNGDemo.CarLoan@28feb3fa]" name="sanctionAmount" duration-ms="0" started-at="2021-06-08T18:39:33Z" finished-at="2021-06-08T18:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sanctionAmount -->
       </class> <!-- testNGDemo.CarLoan -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="testNGDemo.BankAccount">
+        <test-method status="PASS" signature="createBankAccount()[pri:0, instance:testNGDemo.BankAccount@2a5ca609]" name="createBankAccount" duration-ms="66" started-at="2021-06-08T18:39:33Z" finished-at="2021-06-08T18:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBankAccount -->
+        <test-method status="PASS" signature="depositAmount()[pri:0, instance:testNGDemo.BankAccount@2a5ca609]" name="depositAmount" duration-ms="0" started-at="2021-06-08T18:39:33Z" finished-at="2021-06-08T18:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- depositAmount -->
+        <test-method status="PASS" signature="m1()[pri:0, instance:testNGDemo.BankAccount@2a5ca609]" name="m1" duration-ms="14" started-at="2021-06-08T18:39:33Z" finished-at="2021-06-08T18:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method status="PASS" signature="withDrawnAmunt()[pri:0, instance:testNGDemo.BankAccount@2a5ca609]" name="withDrawnAmunt" duration-ms="9" started-at="2021-06-08T18:39:33Z" finished-at="2021-06-08T18:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withDrawnAmunt -->
+      </class> <!-- testNGDemo.BankAccount -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
