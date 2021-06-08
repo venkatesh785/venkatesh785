@@ -2,27 +2,22 @@ package testNGDemo;
 
 import org.testng.annotations.Test;
 
-public class BankAccount {
-	@Test(priority=1,enabled=false)
-	public void ApplyBankAccount() {
+public class CarLoan {
+	@Test
+	public void applyCarLoan() {
 		System.out.println("accont applied sucessflly....");
 	}
 	@Test
-	public void createBankAccount() {
+	public void createSubmittDoc() {
 		System.out.println("amount creadited sucessflly....");
 	}
 	@Test
-	public void depositAmount() {
+	public void verifyDoc() {
 		System.out.println("amont deposited sucessflly....");
 	}
 	@Test
-	public void withDrawnAmunt() {
+	public void sanctionAmount() {
 		System.out.println("accont applied sucessflly....");
-	}
-	@Test
-	public void m1() {
-		System.out.println("m1 method executed  sucessflly....");
-		
 	}
 
 }
