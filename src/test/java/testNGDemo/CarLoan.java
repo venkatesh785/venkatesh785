@@ -19,5 +19,10 @@ public class CarLoan {
 	public void sanctionAmount() {
 		System.out.println("accont applied sucessflly....");
 	}
+	@Test
+	public void applicationRej() {
+		System.out.println("accont applied sucessflly....");
+	}
+
 
 }
